@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #e6e6e6;  
+    background-color: #ffffff;  
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -17,7 +17,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000;  
+    background-color: #333;  
     display: flex;
     justify-content: center; 
 }
@@ -40,39 +40,39 @@ nav ul li a:hover {
 
 h1, h2 {
     text-align: center;
-    color: #000000;  
+    color: #000;  
 }
 
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    background-color: #ffffff; 
+    background-color: #fff; 
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
     margin-top: 20px;
 }
 
 img {
-
-    width: 50%;  
-    height: auto;  
-    max-height: 300px; 
-    display: block;
+    width: 300px;  
+    height: 200px;  
+    border-radius: 8px; 
+    object-fit: cover; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    margin-top: 15px;
     margin-bottom: 10px;
-    border-radius: 8px;  
-    object-fit: cover;  
+
 }
 
-
 footer {
-    background-color: #ffffff;  
+    background-color: #333;  
     color: white;
     text-align: center;
     padding: 10px;
     margin-top: 20px;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
